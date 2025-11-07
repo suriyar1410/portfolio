@@ -1,17 +1,17 @@
 import { useState } from "react";
 import '../App.css'
 
-import todoImg from '../assets/project/Todo.png';
-import cbImg from '../assets/project/CB.png';
-import blogImg from '../assets/project/Blog.png';
-import rpcImg from '../assets/project/RPC.png';
-import etImg from '../assets/project/ET.png';
-import weatherImg from '../assets/project/Weather API.png';
-import ecomImg from '../assets/project/Ecom.png';
-import dogImg from '../assets/project/Dog API.png';
-import picImg from '../assets/project/pic.png';
-import ncImg from '../assets/project/NC.png';
-import dcImg from '../assets/project/DC.png';
+import todoImg from '../assets/Project/Todo.png';
+import cbImg from '../assets/Project/CB.png';
+import blogImg from '../assets/Project/Blog.png';
+import rpcImg from '../assets/Project/RPC.png';
+import etImg from '../assets/Project/ET.png';
+import weatherImg from '../assets/Project/Weather API.png';
+import ecomImg from '../assets/Project/Ecom.png';
+import dogImg from '../assets/Project/Dog API.png';
+import picImg from '../assets/Project/pic.png';
+import ncImg from '../assets/Project/NC.png';
+import dcImg from '../assets/Project/DC.png';
 
 
 export default function Project() {
