@@ -1,9 +1,10 @@
 import React from 'react'
 
+import suriyaImg from "../assets/suriya2.jpeg";
+
 function About() {
   return (
     <div className="container-fluid sec-section" id="about">
-      {/* About Section */}
       <div className="heading-wrapper">
         <h3>About Me</h3>
       </div>
@@ -15,17 +16,12 @@ function About() {
         frontend-backend integration.
       </p>
 
-      {/* Experience Section */}
       <div className="experience">
         <div className="heading-wrapper mt-5">
           <h3>Experience</h3>
         </div>
-
-        <div className="row p-5 m-2">
-          <div className="col-lg-8">
-            
-            {/* Shrika Institute of Creative Technology */}
-            <p>
+        <div className="row m-2">
+          <div className="col-lg-8 ">
               <b>
                 <span className="company">Shrika Institute of Creative Technology</span>
                 <span className="position"> | Full Stack Trainee & Developer</span>
@@ -36,10 +32,7 @@ function About() {
                 <li>Collaborating on live projects to enhance problem-solving, scalability, and performance optimization.</li>
               </ul>
               <p><i>05/2025 – Present | Madurai, India</i></p>
-            </p>
-
-            {/* ARR INFOTECH */}
-            <p className="mt-4">
+            <div className="mt-4">
               <b>
                 <span className="company">ARR INFOTECH</span>
                 <span className="position"> | Full Stack Developer</span>
@@ -56,8 +49,8 @@ function About() {
                 </li>
               </ul>
               <p><i>02/2024 – 03/2025 | Madurai, India</i></p>
-            </p>
-            <p className="mt-4">
+            </div>
+            <div className="mt-4">
               <b>
                 <span className="company">Premac Industries</span>
                 <span className="position"> | Technical Support Engineer</span>
@@ -68,11 +61,11 @@ function About() {
                 <li>Troubleshot and resolved bugs using <b>C#</b> and <b>.NET</b> to improve system reliability and performance.</li>
               </ul>
               <p><i>05/2023 – 11/2023 | Coimbatore, India</i></p>
-            </p>
+            </div>
           </div>
 
           <div className="col-lg-3 d-flex justify-content-center align-items-start">
-            <img className="suriya " src="./assets/suriya2.jpeg" alt="Suriya" />
+            <img className="suriya " src={suriyaImg} alt="Suriya" />
           </div>
         </div>
       </div>

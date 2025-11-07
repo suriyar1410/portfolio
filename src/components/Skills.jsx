@@ -1,45 +1,73 @@
 import { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import htmlImg from "../assets/html.png";
+import cssImg from "../assets/css.png";
+import bootstrapImg from "../assets/bootstrap.png";
+import angularImg from "../assets/angular.png";
+import reactImg from "../assets/react.png";
+import tailwindImg from "../assets/tailwind.png";
+import tsImg from "../assets/ts.png";
+import ionicImg from "../assets/ionic.png";
+import vite from "../assets/vite.png";
 
+import nodeImg from "../assets/node.png";
+import expressImg from "../assets/express.png";
+import sqlImg from "../assets/sql.png";
+import mongoImg from "../assets/mongo.png";
+import cImg from "../assets/c.png";
+import pythonImg from "../assets/python.png";
+
+import gitImg from "../assets/git.png";
+import githubImg from "../assets/github.png";
+import cmdImg from "../assets/cmd.png";
+
+import wixImg from "../assets/wix.png";
+import wordpressImg from "../assets/wordpress.png";
+
+import psImg from "../assets/ps.png";
+import corelImg from "../assets/corel.png";
+import balsamiqImg from "../assets/Balsamiq.png";
+import figmaImg from "../assets/figma.png";
+
+import jsImg from "../assets/js.png";
 
 const techData = {
   Frontend_Skills: [
-    { name: "HTML", img: "../assets/html.png" },
-    { name: "CSS", img: "../assets/css.png" },
-    { name: "Bootstrap", img: "../assets/bootstrap.png" },
-    { name: "Angular", img: "../assets/angular.png" },
-    { name: "React", img: "../assets/react.png" },
-    { name: "Tailwind", img: "../assets/tailwind.png" },
-    { name: "TypeScript", img: "../assets/ts.png" },
-    { name: "Ionic", img: "../assets/ionic.png" },
+    { name: "HTML", img: htmlImg },
+    { name: "CSS", img: cssImg },
+    { name: "Bootstrap", img: bootstrapImg },
+    { name: "Angular", img: angularImg },
+    { name: "React", img: reactImg },
+    { name: "Tailwind", img: tailwindImg },
+    { name: "TypeScript", img: tsImg },
+    { name: "Ionic", img: ionicImg },
+    { name: "JavaScript", img: jsImg },
+    { name: "Vite", img: vite },
   ],
   Backend_Skills: [
-    { name: "Node JS", img: "../assets/node.png" },
-    { name: "Express JS", img: "../assets/express.png" },
-    { name: "SQL", img: "../assets/sql.png" },
-    { name: "MongoDB", img: "../assets/mongo.png" },
-    { name: "C", img: "../assets/c.png" },
-    { name: "Python", img: "../assets/python.png" },
+    { name: "Node JS", img: nodeImg },
+    { name: "Express JS", img: expressImg },
+    { name: "SQL", img: sqlImg },
+    { name: "MongoDB", img: mongoImg },
   ],
   Misc_Skills: [
-    { name: "Git", img: "../assets/git.png" },
-    { name: "GitHub", img: "../assets/github.png" },
-    { name: "CMD", img: "../assets/cmd.png" },
+    { name: "Git", img: gitImg },
+    { name: "GitHub", img: githubImg },
+    { name: "CMD", img: cmdImg },
   ],
-  CMS_Website_Creation:[
-   { name: "Wix", img: "../assets/wix.png" },
-   { name: "Wordpress", img: "../assets/wordpress.png" }
+    CMS_Website_Creation: [
+    { name: "Wix", img: wixImg },
+    { name: "Wordpress", img: wordpressImg },
   ],
-  Design_Software:[
-   { name: "Photoshop", img: "../assets/ps.png" },
-   { name: "CorelDraw", img: "../assets/corel.png" },
-   { name: "Balsamiq", img: "../assets/Balsamiq.png" },
-   { name: "Figma", img: "../assets/figma.png" }
+  Design_Software: [
+    { name: "Photoshop", img: psImg },
+    { name: "CorelDraw", img: corelImg },
+    { name: "Balsamiq", img: balsamiqImg },
+    { name: "Figma", img: figmaImg },
   ],
   Languages: [
-    { name: "JavaScript", img: "../assets/js.png" },
-    { name: "C", img: "../assets/c.png" },
-    { name: "Python", img: "../assets/python.png" },
+    { name: "JavaScript", img: jsImg },
+    { name: "C", img: cImg },
+    { name: "Python", img: pythonImg },
   ],
 };
 
@@ -84,7 +112,7 @@ export default function Skills() {
             {techData[selectedCategory].map((tech) => (
               <div
                 key={tech.name}
-                className="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex justify-content-center"
+                className="col-lg-3 col-md-4 col-sm-6 col-6 mb-4 d-flex justify-content-center"
               >
                 <div
                   className="skill-card"

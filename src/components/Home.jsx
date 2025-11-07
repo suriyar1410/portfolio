@@ -4,6 +4,8 @@ import Projects from "./Project";
 import Skills from "./Skills";
 import About from "./About";
 import Contact from "./Contact";
+import HomePhoto from '../assets/homephoto.jpeg'
+
 function Home() {
   const titles = [
     " Full Stack Developer",
@@ -106,7 +108,7 @@ function Home() {
       {/* Hero Section */}
       <div className="container-fluid hero-section">
         <div className="hero-image-wrapper">
-          <img src="/assets/homephoto.jpeg" alt="Home" className="profile-img" />
+          <img src={HomePhoto} alt="Home" className="profile-img" />
           <h1 className="hero-text-overlay">
             I am a <span>{currentTitle}</span>
             <div>

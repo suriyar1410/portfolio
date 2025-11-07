@@ -1,73 +1,38 @@
 import { useState } from "react";
 import '../App.css'
+
+import todoImg from '../assets/project/Todo.png';
+import cbImg from '../assets/project/CB.png';
+import blogImg from '../assets/project/Blog.png';
+import rpcImg from '../assets/project/RPC.png';
+import etImg from '../assets/project/ET.png';
+import weatherImg from '../assets/project/Weather API.png';
+import ecomImg from '../assets/project/Ecom.png';
+import dogImg from '../assets/project/Dog API.png';
+import picImg from '../assets/project/pic.png';
+import ncImg from '../assets/project/NC.png';
+import dcImg from '../assets/project/DC.png';
+
+
 export default function Project() {
   const [selectedType, setSelectedType] = useState("Big Projects");
 
   const projects = {
     "Big Projects": [
-      {
-        title: "TODO APP-MERN",
-        img: "../assets/project/Todo.png",
-        link: "https://tiny-mermaid-3e47c0.netlify.app/",
-      },
-      {
-        title: "Contact-Book",
-        img: "../assets/project/CB.png",
-        link: "https://contact-book-1-ep8b.onrender.com/",
-      },
-      {
-        title: "Blog Website-MERN",
-        img: "../assets/project/Blog.png",
-        link: "https://your-blog-site.com",
-      },
-      //  {
-      //   title: "Ecommerce-MEAN",
-      //   img: "../assets/project/Blog.png",
-      //   link: "https://your-blog-site.com",
-      // },
-    ],
-    "Small Projects": [
-      {
-        title: "Rock Paper Scissor",
-        img: "../assets/project/RPC.png",
-        link: "https://suriyar1410.github.io/Rock-Paper-Scissors/",
-      },
-      {
-        title: "Expense Tracker",
-        img: "../assets/project/ET.png",
-        link: "https://suriyar1410.github.io/Expense-tracker/",
-      },
-      {
-        title: "Weather App",
-        img: "../assets/project/Weather API.png",
-        link: "https://suriyar1410.github.io/weather-API/",
-      },
-      {
-        title: "Ecom Website",
-        img: "../assets/project/Ecom.png",
-        link: "https://suriyar1410.github.io/E-com-website/",
-      },
-      {
-        title: "Dog API",
-        img: "../assets/project/Dog API.png",
-        link: "https://suriyar1410.github.io/Dog-API/",
-      },
-      {
-        title: "Photography Site",
-        img: "../assets/project/pic.png",
-        link: "https://suriyar1410.github.io/photography-site/",
-      },
-      {
-        title: "Calculator App",
-        img: "../assets/project/NC.png",
-        link: "https://suriyar1410.github.io/calculator/",
-      },
-      {
-        title: "Digital Clock",
-        img: "../assets/project/DC.png",
-        link: "https://suriyar1410.github.io/Digital-clock/",
-      },
-    ],
+    { title: "TODO APP-MERN", img: todoImg, link: "https://tiny-mermaid-3e47c0.netlify.app/" },
+    { title: "Contact-Book With Authentication", img: cbImg, link: "https://contact-book-1-ep8b.onrender.com/" },
+    { title: "Blog Website-MERN", img: blogImg, link: "https://your-blog-site.com" },
+  ],
+   "Small Projects": [
+  { title: "Rock Paper Scissor", img: rpcImg, link: "https://suriyar1410.github.io/Rock-Paper-Scissors/" },
+  { title: "Expense Tracker", img: etImg, link: "https://suriyar1410.github.io/Expense-tracker/" },
+  { title: "Weather App", img: weatherImg, link: "https://suriyar1410.github.io/weather-API/" },
+  { title: "Ecom Website", img: ecomImg, link: "https://suriyar1410.github.io/E-com-website/" },
+  { title: "Dog API", img: dogImg, link: "https://suriyar1410.github.io/Dog-API/" },
+  { title: "Photography Site", img: picImg, link: "https://suriyar1410.github.io/photography-site/" },
+  { title: "Calculator App", img: ncImg, link: "https://suriyar1410.github.io/calculator/" },
+  { title: "Digital Clock", img: dcImg, link: "https://suriyar1410.github.io/Digital-clock/" },
+],
   };
 
   return (
