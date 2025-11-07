@@ -25,7 +25,7 @@ import wordpressImg from "../assets/wordpress.png";
 
 import psImg from "../assets/ps.png";
 import corelImg from "../assets/corel.png";
-import balsamiqImg from "../assets/Balsamiq.png";
+import balsamiqImg from "../assets/balsamiq.png";
 import figmaImg from "../assets/figma.png";
 
 import jsImg from "../assets/js.png";
