@@ -24,7 +24,7 @@ function About() {
           <div className="col-lg-8 ">
               <b>
                 <span className="company">Shrika Institute of Creative Technology</span>
-                <span className="position"> | Full Stack Trainee & Developer</span>
+                <span className="position">Full Stack Trainee & Developer</span>
               </b>
               <ul>
                 <li>Training in advanced frontend (<b>React, Angular</b>) and backend (<b>Node.js, Express, MongoDB, SQL</b>) technologies.</li>
@@ -35,7 +35,7 @@ function About() {
             <div className="mt-4">
               <b>
                 <span className="company">ARR INFOTECH</span>
-                <span className="position"> | Full Stack Developer</span>
+                <span className="position">Full Stack Developer</span>
               </b>
               <ul>
                 <li>Developed the frontend for a travel booking mobile app using <b>Ionic with Angular</b>, ensuring a seamless and intuitive experience.</li>
@@ -50,7 +50,7 @@ function About() {
               </ul>
               <p><i>02/2024 – 03/2025 | Madurai, India</i></p>
             </div>
-            <div className="mt-4">
+            {/* <div className="mt-4">
               <b>
                 <span className="company">Premac Industries</span>
                 <span className="position"> | Technical Support Engineer</span>
@@ -61,7 +61,7 @@ function About() {
                 <li>Troubleshot and resolved bugs using <b>C#</b> and <b>.NET</b> to improve system reliability and performance.</li>
               </ul>
               <p><i>05/2023 – 11/2023 | Coimbatore, India</i></p>
-            </div>
+            </div> */}
           </div>
 
           <div className="col-lg-3 d-flex justify-content-center align-items-start">

@@ -21,7 +21,7 @@ export default function Project() {
     "Big Projects": [
     { title: "TODO APP-MERN", img: todoImg, link: "https://tiny-mermaid-3e47c0.netlify.app/" },
     { title: "Contact-Book With Authentication", img: cbImg, link: "https://contact-book-1-ep8b.onrender.com/" },
-    { title: "Blog Website-MERN", img: blogImg, link: "https://your-blog-site.com" },
+    { title: "Blog Website-MERN", img: blogImg, link: "https://infoflare-blog.netlify.app/" },
   ],
    "Small Projects": [
   { title: "Rock Paper Scissor", img: rpcImg, link: "https://suriyar1410.github.io/Rock-Paper-Scissors/" },
